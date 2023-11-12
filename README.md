@@ -1,30 +1,50 @@
-# Фінальний командний проект "Drinkmaster"
-Веб додаток, який дозволить вам вивчати різноманітні коктейлі та створювати власні майстер-п'єси в мистецтві коктейльного приготування. У нашому додатку ви можете
-відкрити для себе найкращі рецепти, навчитися їх готувати та експериментувати зі смаками.
+# Final Team Project "Drinkmaster"
 
-## Шаблон репозиторія
-Цей проект був створений на основі [Create React App](https://github.com/facebook/create-react-app). Для ознайомлення з шаблоном [зверніться до документації](https://facebook.github.io/create-react-app/docs/getting-started).
+A web application that allows you to explore various cocktails and create your
+own masterpieces in the art of cocktail preparation. In our application, you can
+discover the best recipes, learn how to make them, and experiment with flavors.
 
-## Опис проекту 
-"Drinkmaster" - це випускний проект курсу "Full Stack Developer" IT-школи GoIT, який використовує всі набуті знання та технології. Він складається з фронтенд-частини: основного сайту, який представлений в даному [репозиторії](https://viktoriarosovska.github.io/drinkmaster-teamproject/), бекенд-частини ([переглянути репозиторій бекенду](https://github.com/Soundlover1984/drinkmaster-backend)), та бази даних MongoDB.
+## Repository Template
 
-### Фронтенд
-Додаток "Drinkmaster" реалізований за допомогою бібліотеки React.js, використовуючи HTML, CSS, Javascript та інструментальної збірки Vite. Він представляє собою багатосторінковий сайт з бібліотекою станів Redux Toolkit, маршрутизацією за допомогою React Router, CRUD-операціями, реалізованими за допомогою Axios з запитами на наш RESTful веб-сервіс.
+This project was created based
+on[Create React App](https://github.com/facebook/create-react-app). To
+familiarize yourself with the
+template,[refer to the documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-`Ми реалізували:`
-- Аутентифікація користувача за допомогою токену
-- Підписка користувача на новини за допомогою електронної пошти
-- Створення власного рецепту
-- Додавання рецептів в категорію улюблені
-- Перегляд власних рецептів
-- Перегляд напоїв за категоріями
-- Фільтрація та пошук напоїв за різними критеріями
-- Зміна теми світла/темна зі збереженням її в базі даних і перегляду додатку на будь-якому іншому пристрої, враховуючи вподобання користувача
-- Адаптивність веб-розмітки додатку для зручного перегляду на будь-яких пристроях
-- Редагування даних користувача і додавання аватарки
-- Мотиваційні модальні вікна для підняття настрою та активності користувача
+## Project Description
 
-`Бібліотеки які використовували:`
+"Drinkmaster" is the graduation project of the "Full Stack Developer" course at
+the GoIT IT school, utilizing all acquired knowledge and technologies. It
+onsists of the frontend part: the main website, which is presented in this
+[repository](https://viktoriarosovska.github.io/drinkmaster-teamproject/), the
+backend part
+([view the backend repository](https://github.com/Soundlover1984/drinkmaster-backend)),
+and the MongoDB database..
+
+### Frontend
+
+The "Drinkmaster" application is implemented using the React.js library,
+utilizing HTML, CSS, Javascript, and the Vite build tool. It is a multi-page
+website with the Redux Toolkit state library, routing through React Router, CRUD
+operations implemented using Axios with requests to our RESTful web service.
+
+`We implemented:`
+
+- User authentication using tokens
+- User subscription to newsletters via email
+- Creation of custom recipes
+- Adding recipes to the favorites category
+- Viewing own recipes
+- Viewing drinks by categories
+- Filtering and searching for drinks based on various criteria
+- Switching between light/dark themes, preserving the preference in the database
+  for cross-device consistency
+- Adaptive web layout for comfortable viewing on various devices
+- Editing user data and adding avatars
+- Motivational modal windows to uplift user mood and activity
+
+`Libraries Used:`
+
 - emotion
 - mui/material
 - mui/x-date-pickers
@@ -56,22 +76,33 @@
 - vite-plugin-svgr
 - web-vitals
 
-### Бекенд
-Бекенд "Drinkmaster" представляє собою ве6-сервер, реалізований на Node.js, а також NoSQL бази даних MongoDB. Документація по маршрутам описана [тут](https://drink-master-app.onrender.com/api-docs/#/). Проект бекенду був задеплоєний на сервер Render.com, що дозволило працювати розробникам з віддаленою базою даних, робити запити і тестувати роботу додатку.  
+### Backend
 
-`Ми реалізували:`
-- Доступ до додатку лише авторизованим користувачам
-- Можливість редагування даних користувача, а також збереження, додавання, створення власної колекції напоїв
-- Фільтрація напоїв за різними критеріями
-- Обмеження щодо показу алкогольних напоїв неповнолітнім дітям та відображення на сторінках лише неалкогольних
-- Висвітлення популярних напоїв
-- Отримання інформації зі сторонніх баз даних, обробка на бекенді і повернення інформації в фронтенд-додаток: інформація про колекцію напоїв, категорії, необхідну тару, інгредієнти.
-- Створення унікальної аватарки для кожного авторизованого користувача
-- Збереження зображень на хмарному сервісі Cloudinary
-- Підписка на новини за допомогою поштового менеджера Mailgun
-- Логування роботи сервера та відстеження помилок
+The "Drinkmaster" backend is a web server implemented in Node.js, paired with
+the NoSQL MongoDB database. The route documentation is described
+[here](https://drink-master-app.onrender.com/api-docs/#/). The backend project
+was deployed on the Render.com server, enabling developers to work with a remote
+database, make requests, and test the application.
 
-`Бібліотеки які використовували:`
+`We implemented:`
+
+- Access to the application only for authorized users
+- Ability to edit user data, as well as save, add, and create a personal
+  collection of drinks
+- Filtering drinks based on various criteria
+- Restriction on showing alcoholic drinks to minors and displaying only
+  non-alcoholic drinks on pages
+- Highlighting popular drinks
+- Retrieving information from external databases, processing on the backend, and
+  returning information to the frontend application: information about drink
+  collections, categories, necessary utensils, ingredients.
+- Creating a unique avatar for each authorized user
+- Saving images on the Cloudinary cloud service
+- Subscribing to newsletters using the Mailgun email manager
+- Logging server activity and error tracking
+
+`Libraries Used:`
+
 - jsonwebtoken
 - mongoose
 - morgan
@@ -98,15 +129,9 @@
 - joi
 
 ## Над проектом працювали:
-- Анна Футрик - фронтенд
-- Анастасія Савицька - фронтенд
-- Денис Ковтун - бекенд
-- Дмитро Медведєв - скрам-майстер, фронтенд
-- Дар'я Ящук - фронтенд
-- Юлія Соловенюк - фронтенд
-- Катерина Рябих - бекенд і фронтенд
-- Володимир Мусаєлян - фронтенд
-- Світлана Буйвол - фронтенд
-- Інна Терещенко - фронтенд
-- Оксана Пономарьова - фронтенд
-- Вікторія Росовська - тімлід, фронтенд
+
+Anna Futryk - frontend Anastasiia Savitska - frontend Denis Kovtun - backend
+Dmytro Medvediev - scrum master, frontend Daria Yashchuk - frontend Yulia
+Soloveniuk - frontend Katerina Ryabykh - backend and frontend Volodymyr
+Musaelyan - frontend Svitlana Buiuvol - frontend Inna Tereshchenko - frontend
+Oksana Ponomariova - frontend Victoria Rosovska - team lead, frontend
