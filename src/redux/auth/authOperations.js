@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 // import { instance } from '../../api/instance';
 
-axios.defaults.baseURL = 'https://drink-master-app.onrender.com/api/';
+axios.defaults.baseURL = 'https://drinkmaster-teamproject-backend.onrender.com/api/';
 const authHeaderToken = {
   set(token) {
     axios.defaults.headers.common.Authorization = `Bearer ${token}`;
