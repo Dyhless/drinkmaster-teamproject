@@ -6,10 +6,10 @@ discover the best recipes, learn how to make them, and experiment with flavors.
 
 ## Repository Template
 
-This project was created based
-on[Create React App](https://github.com/facebook/create-react-app). To
-familiarize yourself with the
-template,[refer to the documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was created based on
+[Create React App](https://github.com/facebook/create-react-app). To familiarize
+yourself with the template,
+[refer to the documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 ## Project Description
 
@@ -80,9 +80,9 @@ operations implemented using Axios with requests to our RESTful web service.
 
 The "Drinkmaster" backend is a web server implemented in Node.js, paired with
 the NoSQL MongoDB database. The route documentation is described
-[here](drinkmaster-teamproject-backend.onrender.com/api-docs/). The backend
-project was deployed on the Render.com server, enabling developers to work with
-a remote database, make requests, and test the application.
+[here](https://drinkmaster-teamproject-backend.onrender.com/api-docs/). The
+backend project was deployed on the Render.com server, enabling developers to
+work with a remote database, make requests, and test the application.
 
 `We implemented:`
 
