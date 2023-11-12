@@ -16,9 +16,9 @@ template,[refer to the documentation](https://facebook.github.io/create-react-ap
 "Drinkmaster" is the graduation project of the "Full Stack Developer" course at
 the GoIT IT school, utilizing all acquired knowledge and technologies. It
 onsists of the frontend part: the main website, which is presented in this
-[repository](https://viktoriarosovska.github.io/drinkmaster-teamproject/), the
+[repository](https://github.com/Dyhless/drinkmaster-teamproject-frontend), the
 backend part
-([view the backend repository](https://github.com/Soundlover1984/drinkmaster-backend)),
+([view the backend repository](https://github.com/Dyhless/drinkmaster-teamproject-backend)),
 and the MongoDB database..
 
 ### Frontend
@@ -80,9 +80,9 @@ operations implemented using Axios with requests to our RESTful web service.
 
 The "Drinkmaster" backend is a web server implemented in Node.js, paired with
 the NoSQL MongoDB database. The route documentation is described
-[here](https://drink-master-app.onrender.com/api-docs/#/). The backend project
-was deployed on the Render.com server, enabling developers to work with a remote
-database, make requests, and test the application.
+[here](drinkmaster-teamproject-backend.onrender.com/api-docs/). The backend
+project was deployed on the Render.com server, enabling developers to work with
+a remote database, make requests, and test the application.
 
 `We implemented:`
 
@@ -130,8 +130,15 @@ database, make requests, and test the application.
 
 ## Над проектом працювали:
 
-Anna Futryk - frontend Anastasiia Savitska - frontend Denis Kovtun - backend
-Dmytro Medvediev - scrum master, frontend Daria Yashchuk - frontend Yulia
-Soloveniuk - frontend Katerina Ryabykh - backend and frontend Volodymyr
-Musaelyan - frontend Svitlana Buiuvol - frontend Inna Tereshchenko - frontend
-Oksana Ponomariova - frontend Victoria Rosovska - team lead, frontend
+- Anna Futryk - frontend
+- Anastasiia Savitska - frontend
+- Denis Kovtun - backend
+- Dmytro Medvediev - scrum master, frontend
+- Daria Yashchuk - frontend Yulia
+- Soloveniuk - frontend
+- Katerina Ryabykh - backend and frontend Volodymyr
+- Musaelyan - frontend
+- Svitlana Buiuvol - frontend
+- Inna Tereshchenko - frontend
+- Oksana Ponomariova - frontend
+- Victoria Rosovska - team lead, frontend
